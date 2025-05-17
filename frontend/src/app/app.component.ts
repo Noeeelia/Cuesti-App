@@ -6,6 +6,7 @@ import { ToastModule } from 'primeng/toast';
 import { ButtonModule } from 'primeng/button';
 import { ImageModule } from 'primeng/image';
 import {StyleClassModule} from 'primeng/styleclass';
+import { InputTextModule } from 'primeng/inputtext';
 
 @Component({
   selector: 'app-root',
@@ -14,10 +15,11 @@ import {StyleClassModule} from 'primeng/styleclass';
     ToastModule,
     ButtonModule,
     ImageModule,
-    StyleClassModule
+    StyleClassModule,
+    InputTextModule
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrl: './app.component.css', 
   providers: [ ConfirmationService, MessageService],
 })
 export class AppComponent {
